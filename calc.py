@@ -1,15 +1,16 @@
 def calc(a,b):
-    sum = a + b
-    print(sum)
-    sub = a - b
-    print(sub)
-    mul = a * b
-    print(mul)
-    div = a / b
-    print(div)
+    calcSum = a + b
+    print(calcSum)
+    calcSub = a - b
+    print(calcSub)
+    calcMul = a * b
+    print(calcMul)
+    calcDiv = a / b
+    print(calcDiv)
 
-    calcList = [sum,sub,mul,div]
+    calcList = [calcSum,calcSub,calcMul,calcDiv]
+    sumOfList = sum(calcList)
 
-    print(calcList)
+    print(sumOfList)
 
 calc(3,3)
