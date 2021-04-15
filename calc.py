@@ -7,3 +7,9 @@ def calc(a,b):
     print(mul)
     div = a / b
     print(div)
+
+    calcList = [sum,sub,mul,div]
+
+    print(calcList)
+
+calc(3,3)
