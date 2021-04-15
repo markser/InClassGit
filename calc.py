@@ -3,6 +3,10 @@ def calc(a,b):
     print(sum)
     sub = a - b
     print(sub)
+    mul = a * b
+    print(mul)
+    div = a / b
+    print(div)
 
-    
+
 # calc(3,4)
