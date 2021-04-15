@@ -7,6 +7,3 @@ def calc(a,b):
     print(mul)
     div = a / b
     print(div)
-
-
-# calc(3,4)
