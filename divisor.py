@@ -5,4 +5,4 @@ def possibleDivisor(n):
             print(x)
         x+=1
          
-possibleDivisor(10)
+possibleDivisor(100)
